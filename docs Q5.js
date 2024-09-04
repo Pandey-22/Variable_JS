@@ -1,4 +1,5 @@
-var num1=234;
-var num2=98;
-var quotient=num1/num2;
+const prompt=require('prompt-sync')();
+let num1=parseInt(prompt("please enter the 1st number:-"));
+let num2=parseInt(prompt("please enter the 2nd number:-"));
+let quotient=num1/num2;
 console.log(quotient);
